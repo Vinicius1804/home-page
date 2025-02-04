@@ -177,7 +177,7 @@ footer img {
         display: flex;
         flex-direction: column;
         text-align: center;
-        padding-bottom: 1rem;
+        padding: 1rem 0;
     }
 
     .menu-mobile .links-nav {
