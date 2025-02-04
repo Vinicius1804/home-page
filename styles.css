@@ -67,11 +67,12 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
 
 }
 
 main h1 {
-    font-size: 2rem;
+    font-size: 3rem;
     color: var(--primary-color);
     line-height: 0.5;
     -webkit-text-stroke: 1px #000;
@@ -79,19 +80,111 @@ main h1 {
 
 main h2 {
     color: var(--secundary-color);
-    font-size: 4rem;
+    font-size: 5rem;
     -webkit-text-stroke: 2px #000;
 }
 
 main p {
-    width: 500px;
+    width: 400px;
     color: #474747;
     font-weight: 500;
     margin-bottom: 30px;
+    font-size: 1.2rem
 }
 
 main img {
     width: 600px;
+}
+
+.textoContainer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.titulo {
+    font-size: 2.7rem;
+    width: 550px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.textoContainer .palavraDiferente {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.textoContainer p {
+    font-size: 1.1rem;
+}
+
+#techFuturo {
+    font-size: 3rem;
+}
+
+.futurasTech {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: 60px 0;
+}
+
+.futurasTech p {
+    width: 300px;
+}
+
+.futurasTech .fa {
+    font-size: 8rem;
+}
+
+.containerTech {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 200px;
+    margin-top: 20px;
+
+}
+
+.containerTech h1 {
+    padding: 20px 0;
+    font-size: 3rem;
+}
+
+#pComp {
+    font-size: 2rem;
+    line-height: 1;
+    padding: 10px 0;
+}
+
+#btnIot {
+    margin-top: 20px;
+}
+
+.containerTech button {
+    background-color: var(--primary-color);
+    font-size: 0.875rem;
+    padding: 0.438rem 0.938rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.containerTech button:hover {
+    background-color: #8a84fc;
+}
+
+.containerTech button a {
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+    font-weight: 500;
 }
 
 main .saibaMais {
@@ -150,7 +243,7 @@ footer img {
 
 }
 
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 480px) {
     .nav-bar {
         padding: 1.5rem 4rem;
     }
@@ -205,9 +298,7 @@ footer img {
     .open {
         display: block;
     }
-}
 
-@media screen and (max-width: 480px) {
     main {
         display: flex;
         flex-direction: column;
@@ -246,4 +337,46 @@ footer img {
         text-align: center;
     }
 
+    .textoContainer {
+        flex-direction: column;
+        justify-self: center;
+        align-items: center;
+    }
+
+    .titulo {
+        font-size: 1.2rem;
+        width: 100%;
+    }
+
+    .textoContainer p {
+        width: 400px;
+    }
+
+    #techFuturo {
+        line-height: 1.1;
+        margin: 0;
+        padding: 0;
+    }
+    .futurasTech > :nth-child(1){
+        margin-top: 0;
+    }
+    .containerTech{
+        margin-top: 60px;
+    }
+    .containerTech h1 {
+        padding: 0;
+        margin: 20px 0;
+    }
+
+    .containerTech .fa {
+        margin: 0;
+        padding: 0;
+    }
+
+    #pComp {
+        margin: 0;
+    }
+    #btnIot{
+        margin: 0;
+    }
 }
