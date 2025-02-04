@@ -56,7 +56,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    
+
 }
 
 main h1 {
@@ -125,10 +125,12 @@ footer img {
     background-color: #fff;
     width: 100%;
 }
-.menu-mobile a:hover{
+
+.menu-mobile a:hover {
     text-decoration: underline;
 }
-.menu-mobile .btnContato:hover{
+
+.menu-mobile .btnContato:hover {
     background-color: #8a84fc;
     text-decoration: underline;
 
@@ -169,11 +171,11 @@ footer img {
         padding-top: 1.2rem;
     }
 
-    .menu-mobile .btnContato  {
+    .menu-mobile .btnContato {
         display: block;
         background-color: var(--primary-color);
         font-size: 1.25rem;
-        padding: 0.5rem ;
+        padding: 0.5rem;
         cursor: pointer;
         border: 2px solid;
         font-weight: 600;
@@ -190,8 +192,9 @@ footer img {
         display: block;
     }
 }
+
 @media screen and (max-width: 480px) {
-    main{
+    main {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -199,28 +202,34 @@ footer img {
         text-align: center;
         width: 100%;
     }
-    section{
+
+    section {
         display: flex;
         flex-direction: column;
     }
 
-    main h1{
+    main h1 {
         margin: 50px 0px 10px 0;
         font-size: 3rem;
+        -webkit-text-stroke: 0px;
     }
-    main h2{
-        
+
+    main h2 {
+        -webkit-text-stroke: 0px;
         font-size: 2.2rem;
     }
-    main p{
+
+    main p {
         width: 300px;
         text-align: center;
     }
-    main img{
+
+    main img {
         width: 400px;
     }
-    main button{
+
+    main button {
         text-align: center;
     }
-    
+
 }
