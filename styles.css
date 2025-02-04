@@ -343,15 +343,18 @@ footer img {
         flex-direction: column;
         justify-self: center;
         align-items: center;
+        text-align: center;
     }
 
     .titulo {
-        font-size: 1.2rem;
+        font-size: 1.8rem;
         width: 100%;
+        border: 1px solid;
     }
 
     .textoContainer p {
-        width: 350px;
+        width: 400px;
+        font-size: 1.3rem;
     }
 
     #techFuturo {
