@@ -166,9 +166,9 @@ footer img {
         padding-bottom: 1rem;
     }
 
-    .menu-mobile .nav-item {
+    .menu-mobile .links-nav {
         display: block;
-        padding-top: 1.2rem;
+        padding-top: 1.2rem 0px;
     }
 
     .menu-mobile .btnContato {
