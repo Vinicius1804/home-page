@@ -380,4 +380,12 @@ footer img {
     #btnIot{
         margin: 0;
     }
+    .containerTech button{
+        padding: 1rem 2rem;
+        border-radius: 15px;
+    }
+    .containerTech button a{
+        font-size: 1.2rem;
+
+    }
 }
