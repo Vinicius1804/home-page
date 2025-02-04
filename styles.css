@@ -119,6 +119,7 @@ main img {
 
 .textoContainer p {
     font-size: 1.1rem;
+    width: 500px;
 }
 
 #techFuturo {
