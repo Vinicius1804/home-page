@@ -326,6 +326,7 @@ footer img {
     }
 
     main p {
+        margin-top: 20px;
         width: 300px;
         text-align: center;
     }
@@ -350,7 +351,7 @@ footer img {
     }
 
     .textoContainer p {
-        width: 400px;
+        width: 350px;
     }
 
     #techFuturo {
