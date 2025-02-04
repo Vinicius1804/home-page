@@ -349,11 +349,10 @@ footer img {
     .titulo {
         font-size: 1.8rem;
         width: 100%;
-        border: 1px solid;
     }
 
     .textoContainer p {
-        width: 400px;
+        width: 350px;
         font-size: 1.3rem;
     }
 
