@@ -347,13 +347,17 @@ footer img {
     }
 
     .titulo {
-        font-size: 1.8rem;
-        width: 100%;
+        font-size: 1.9rem;
+        width: 90%;
+        margin: auto;
+        margin-bottom: 20px;
     }
 
     .textoContainer p {
         width: 350px;
         font-size: 1.3rem;
+        margin: auto;
+        
     }
 
     #techFuturo {
