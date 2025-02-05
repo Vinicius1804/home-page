@@ -5,7 +5,9 @@
     font-family: var(--roboto);
 
 }
-
+html{
+    scroll-behavior: smooth;
+}
 .overlay {
     position: fixed;
     top: 0;
