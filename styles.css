@@ -22,10 +22,10 @@ header {
     top: 0;
     background-color: #fff;
     z-index: 102;
-
 }
 
 .nav-bar {
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.1);
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -220,9 +220,10 @@ footer {
     width: 100%;
 }
 
-footer #wave-mobile{
+footer #wave-mobile {
     display: none;
 }
+
 .footer-link {
     text-decoration: none;
 }
@@ -238,6 +239,7 @@ footer #wave-mobile{
     align-items: center;
     gap: 10px;
 }
+
 #footer_logo img {
     width: 60px;
     height: 60px;
@@ -311,8 +313,6 @@ footer #wave-mobile{
     flex-direction: column;
     gap: 1.5rem;
 }
-
-#footer-subscribe p {}
 
 #input_group {
     display: flex;
@@ -556,11 +556,13 @@ footer #wave-mobile{
         font-size: 1.2rem;
 
     }
-    footer #wave{
+
+    footer #wave {
         display: none;
     }
-    footer #wave-mobile{
+
+    footer #wave-mobile {
         display: block;
     }
-    
+
 }
